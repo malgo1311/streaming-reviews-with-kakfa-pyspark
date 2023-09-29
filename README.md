@@ -4,7 +4,7 @@
 
 In this project, we simulated streaming business reviews in real-time and performed ML prediction, namely sentiment analysis on the streamed data using PySpark/PyTorch. We simulated data streaming using Apache Kafka and received the streaming data using PySpark, where we performed sentiment analysis on the review and stored this information. In the system architecture, we considered both, the non-distributed setup and distributed setup in storing our streaming data at the producer(Kafka) and reflect on any performance improvements. 
 
-Sentiment analysis is the process of identifying and classifying the opinions and emotions expressed in a piece of text. It has numerous applications in areas such as marketing, customer service, and political analysis. We built a simple Logistic Regression Model pipeline in PySpark, and a finetuned BERT in PyTorch to classify whether the reviews are positive or negative. And finally, we developed a dashboard that displays a real-time analysis of customer reviews, sentiment analysis results and other relevant metrics using Streamlit.
+Sentiment analysis is the process of identifying and classifying the opinions and emotions expressed in a piece of text. It has numerous applications in areas such as marketing, customer service, and political analysis. We built a simple Logistic Regression Model pipeline in PySpark, and finetuned BERT in PyTorch to classify whether the reviews are positive, negative or neutral. And finally, we developed a dashboard that displays a real-time analysis of customer reviews, sentiment analysis results and other relevant metrics using Streamlit.
 
 ## Objectives achieved
 
@@ -56,15 +56,15 @@ Simulate streaming of business reviews in real-time using native Python / Apache
 
 5. **Dataset source:**
 
-..* https://www.kaggle.com/datasets/yelp-dataset/yelp-dataset
+    * https://www.kaggle.com/datasets/yelp-dataset/yelp-dataset
 
 
 ## TOOLS AND TECHNOLOGIES
 
 The following tools and technologies will be used in this project:
 
-1. PySpark: for distributed processing of data
-2. Apache Kafka: to simulate real-time streaming of data
-3. Python: for programming the project
-4. Streamlit: for developing the dashboard
-5. CSV / MySQL: for storing the analyzed data
+1. **PySpark:** for distributed processing of data
+2. **Apache Kafka:** to simulate real-time streaming of data
+3. **Python:** for programming the project
+4. **Streamlit:** for developing the dashboard
+5. **CSV / MySQL:** for storing the analyzed data
