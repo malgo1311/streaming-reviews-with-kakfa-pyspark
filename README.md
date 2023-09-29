@@ -26,7 +26,7 @@ Simulate streaming of restaurant reviews in real-time using native Python / Apac
 
 2. **Model Building:**
 
-⋅⋅* Build a Logistic Regression Model pipeline to classify whether the reviews as negative or positive using PySpark's Machine Learning (ML) library.
+⋅⋅a. Build a Logistic Regression Model pipeline to classify whether the reviews as negative or positive using PySpark's Machine Learning (ML) library.
 
 ⋅⋅* Here, our focus is not to build a very accurate classification model but to see how to use any model and return results on streaming data.
 
